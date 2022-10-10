@@ -18,8 +18,8 @@ data:
        @id out_es
        @log_level info
        include_tag_key true
-       hosts https://fluentd:OpenSearch2022*!@search-dnext-rnd-5ycqf4xvl6gzltvvh2gndohdmi.eu-west-1.es.amazonaws.com:443
-       #host "#{ENV['FLUENT_ELASTICSEARCH_HOST'] || 'search-dnext-rnd-5ycqf4xvl6gzltvvh2gndohdmi.eu-west-1.es.amazonaws.com'}"
+       hosts https://user:pass@ES_HOST_URL:443
+       #host "#{ENV['FLUENT_ELASTICSEARCH_HOST'] || 'ES_HOST_URL'}"
        #port "#{ENV['FLUENT_ELASTICSEARCH_PORT'] || '443'}"
        #path "#{ENV['FLUENT_ELASTICSEARCH_PATH']}"
        #scheme "#{ENV['FLUENT_ELASTICSEARCH_SCHEME'] || 'https'}"
